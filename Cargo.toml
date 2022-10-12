@@ -1,0 +1,20 @@
+[package]
+edition = "2021"
+name = "ttrain"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+devise_core = "0.3.1"
+log = "0.4.17"
+pear_codegen = "0.2.3"
+stderrlog = "0.5.3"
+
+[dependencies.uuid]
+features = [
+  "v4", # Lets you generate random UUIDs
+  "fast-rng", # Use a faster (but still sufficiently random) RNG
+  "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]
+version = "1.2.1"
