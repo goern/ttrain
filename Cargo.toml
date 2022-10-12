@@ -7,8 +7,15 @@ version = "0.1.0"
 
 [dependencies]
 devise_core = "0.3.1"
+juniper = "0.15.10"
+juniper_rocket = "0.8.2"
+libsqlite3-sys = "0.25.1"
 log = "0.4.17"
 pear_codegen = "0.2.3"
+refinery = {version = "0.8.6", features = ["rusqlite"]}
+rocket = {version = "0.5.0-rc.2", features = ["secrets"]}
+rocket_http = "0.5.0-rc.2"
+rusqlite = "0.28.0"
 stderrlog = "0.5.3"
 
 [dependencies.uuid]
