@@ -1,3 +1,3 @@
 # the Readme
 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ossf/scorecard/badge)](https://api.securityscorecards.dev/projects/github.com/ossf/scorecard)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/goern/ttrain/badge)](https://api.securityscorecards.dev/projects/github.com/goern/ttrain)
